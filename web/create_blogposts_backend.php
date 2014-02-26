@@ -17,7 +17,7 @@
 			$register_data = array(
 				'title' 			=> 	$_POST['title'],
 				'description' 		=> 	$_POST['description'],
-				'timestamp' 		=> 	$_POST['link'],
+				'timestamp' 		=> 	time(),
 				'tags'				=> 	$_POST["tags"],
 				'likes'				=> 	0
 			);
